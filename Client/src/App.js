@@ -1,12 +1,12 @@
 import { Routes, Route } from "react-router-dom";
-import Account from "./component/Account";
+import Account from "./component/config/Account";
 import "./App.css";
 import Home from "./component/Home";
-import Reset from "./component/Reset";
-import PopUp from "./component/PopUp";
+import Reset from "./component/config/Reset";
+import PopUp from "./component/config/PopUp";
 import DashboardApp from "./DashboardFile/DashboardApp";
-import Verification from "./component/Verification";
-import Admin from "./component/Admin";
+import Verification from "./component/config/Verification";
+import Admin from "./component/config/Admin";
 import Product from "./component/Product";
 function App() {
   return (
